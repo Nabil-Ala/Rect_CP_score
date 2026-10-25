@@ -1,0 +1,18 @@
+# Python 3.11; direct dependencies pinned to the environment used for validation.
+numpy==2.0.0
+scipy==1.14.1
+scikit-learn==1.8.0
+pandas==2.2.3
+cgmm==0.4.0
+covmetrics[extra]==0.1.1
+tabicl==2.0.3
+torch==2.5.1
+# Imported by covmetrics even when TabICL is the selected ERT classifier.
+catboost==1.2.8
+lightgbm==4.6.0
+probmetrics==1.1.0
+numba==0.61.0
+# TabICL preprocessing and checkpoint loading.
+einops==0.8.2
+huggingface-hub==0.29.3
+pytorch-minimize
