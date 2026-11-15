@@ -1,6 +1,6 @@
 # Rectangularization of Multivariate Nonconformity Scores
 
-This repository studies the impact of rectangularization on  nonconformity scores in multivariate conformal prediction. We compare three nonconformity scores (Euclidean, Mahalanobis, and PCP) and their rectangularized versions on simulated and real-world datasets.
+This repository studies the impact of rectangularization on  nonconformity scores in multivariate conformal prediction (paper: https://arxiv.org/abs/2611.05543). We compare three nonconformity scores (Euclidean, Mahalanobis, and PCP) and their rectangularized versions on simulated and real-world datasets.
 
 We evaluate marginal coverage, conditional coverage metrics, and median log-volume.
 
